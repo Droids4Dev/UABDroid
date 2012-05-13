@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/org.uab.deic.uabdroid"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearLayoutdetails">
+    
+    <org.uab.deic.uabdroid.ActionBarCompat 
+    	android:id="@+id/actionBarCompat1"
+    	custom:showHomeButton="true"
+    	style="@style/ActionBarCompat"/>
+    
+    <FrameLayout android:id="@+id/framelayout_fragment"     
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+        
+    </FrameLayout>
+
+</LinearLayout>

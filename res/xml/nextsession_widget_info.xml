@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:initialLayout="@layout/nextsession_widget"
+	android:minWidth="294dp"
+	android:minHeight="142dp"
+	android:label="@string/next_session_widget_label"
+	android:updatePeriodMillis="172800000"
+/>

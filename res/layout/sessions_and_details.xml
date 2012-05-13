@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/org.uab.deic.uabdroid"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    	<org.uab.deic.uabdroid.ActionBarCompat 
+    		android:id="@+id/actionBarCompat1"
+    		custom:showHomeButton="true"
+    		style="@style/ActionBarCompat"/>
+		
+		<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="fill_parent" android:layout_height="fill_parent">
+    		
+    		<fragment class="org.uab.deic.uabdroid.fragments.SessionListFragment"
+            	android:id="@+id/titles"
+            	android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    		
+		</FrameLayout>
+
+</LinearLayout>

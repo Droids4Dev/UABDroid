@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="user_preferences_alert_frequency_options">
+		<item>Cada 6 horas</item>
+		<item>Cada 12 horas</item>
+		<item>Una vez al día</item>
+	</string-array>
+	<string-array name="user_preferences_alert_frequency_values">
+		<item>6</item>
+		<item>12</item>
+		<item>24</item>
+	</string-array>
+	<string-array name="user_preferences_next_session_interval_options">
+		<item>2 días antes de la sesión</item>
+		<item>3 días antes de la sesión</item>
+		<item>4 días antes de la sesión</item>
+	</string-array>
+	<string-array name="user_preferences_next_session_interval_values">
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	
+	<string-array name="user_preferences_automatic_updates_frequency_options">
+		<item>Cada 6 horas</item>
+		<item>Cada 12 horas</item>
+		<item>Cada 24 horas</item>
+		<item>Cada 48 horas</item>
+	</string-array>
+	<string-array name="user_preferences_automatic_updates_frequency_values">
+		<item>6</item>
+		<item>12</item>
+		<item>24</item>
+		<item>48</item>
+	</string-array>
+	
+	<string-array name="materials">
+		<item>Transparencias</item>
+		<item>Codigo</item>
+		<item>Enlaces</item>
+	</string-array>
+</resources>

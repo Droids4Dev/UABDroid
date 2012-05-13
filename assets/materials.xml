@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+	<material index="1" tipus="transparencies">
+		<nom lang="ca_ES">Unitat 1: Introducció a Android</nom>
+		<nom lang="es_ES">Unidad 1: Introducción a Android</nom>
+		<url>http://</url>
+	</material>
+	<material index="2" tipus="codi">
+		<nom lang="ca_ES">Codi de l'aplicació del curs</nom>
+		<nom lang="es_ES">Código de aplicación del curso</nom>
+		<url>http://</url>
+	</material>
+	<material index="3" tipus="enllas">
+		<nom lang="ca_ES">Android API</nom>
+		<nom lang="es_ES">Android API</nom>
+		<url>http://developer.android.com/reference/packages.html</url>
+	</material>
+</materials>

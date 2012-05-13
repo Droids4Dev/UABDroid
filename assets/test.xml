@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<pregunta index="1">
+		<p lang="ca_ES">Quin és el sobrenom de dolç de la versió d'Android per a tablets?</p>
+		<p lang="es_ES">¿Cuál es el sobrenombre de dulce de la versión de Android para tablets?</p>
+		<r correct="true">Honeycomb</r>
+		<r>Chupachups</r>
+		<r>Spam</r>
+	</pregunta>
+	<pregunta index="2">
+		<p lang="ca_ES">Com és diu el mecanisme per cridar a altres activitats, serveis, etc?</p>
+		<p lang="es_ES">¿Cómo se llama el mecanismo para llamar a otras actividades, servicios, etc?</p>
+		<r correct="true">Intents</r>
+		<r>Calls</r>
+		<r>ActivitiesPlus</r>
+	</pregunta>
+	<pregunta index="3">
+		<p lang="ca_ES">Quin tipus d'API necessitem per poder crear mapes amb Google Maps?</p>
+		<p lang="es_ES">¿Qué tipo de API necesitamos para poder crear mapas con Google Maps?</p>
+		<r correct="true">Android Google API</r>
+		<r>Android Standard API</r>
+		<r>Samsung Galaxy Tab API</r>
+	</pregunta>
+	<pregunta index="4">
+		<p lang="ca_ES">A partir de quina versió d'Android podem fer servir les funcions de NFC?</p>
+		<p lang="es_ES">¿A partir de qué versió de Android podemos utilizar las funciones de NFC?</p>
+		<r correct="true">Gingerbread</r>
+		<r>Breadcrumb</r>
+		<r>Gingerinokuma</r>
+	</pregunta>
+	<pregunta index="5">
+		<p lang="ca_ES">Com és diu el fitxer de l'aplicació que descriu les altres parts de les que es composa?</p>
+		<p lang="es_ES">¿Cómo se llama el fichero de la aplicación que describe las otras partes de las que se compone?</p>
+		<r correct="true">Manifest.xml</r>
+		<r>Parts.xml</r>
+		<r>Description.xml</r>
+	</pregunta>
+	<pregunta index="6">
+		<p lang="ca_ES">Quin modificador de les carpetes de recursos serveix per indicar que aquests recursos són per a Honeycomb en endavant?</p>
+		<p lang="es_ES">¿Qué modificador de las carpetas de recursos sirve para indicar que esos recursos son para Honeycomb en adelante?</p>
+		<r correct="true">v11</r>
+		<r>vHoney</r>
+		<r>res-honey</r>
+	</pregunta>
+	<pregunta index="7">
+		<p lang="ca_ES">Com es diu la tècnica per obtenir una adreça a partir d'un punt de GPS?</p>
+		<p lang="es_ES">¿Cómo se llama la técnica para obtener una dirección a partir de un punto de GPS?</p>
+		<r correct="true">Reverse Geocoding</r>
+		<r>FindThePlace()</r>
+		<r>Bing</r>
+	</pregunta>
+	<pregunta index="8">
+		<p lang="ca_ES">Quin és el primer event del cicle de vida d'una activity?</p>
+		<p lang="es_ES">¿Cuál es el primer evento del ciclo de vida de una activity?</p>
+		<r correct="true">onCreate()</r>
+		<r>onBeginCycle()</r>
+		<r>readySteadyAndGo()</r>
+	</pregunta>
+	<pregunta index="9">
+		<p lang="ca_ES">Quina de les següents respostes correspon a una View?</p>
+		<p lang="es_ES">¿Cuál de las siguientes respuestas corresponde a una View?</p>
+		<r correct="true">ListView</r>
+		<r>SimpleView</r>
+		<r>EyeOS</r>
+	</pregunta>
+	<pregunta index="10">
+		<p lang="ca_ES">Quina classe podem extendre per tal d'obtenir un mecanisme per poder accedir al mateix objecte des de diferents activities?</p>
+		<p lang="es_ES">¿Qué clase podemos extender para obtener un mecanisme para poder acceder al mismo objeto desde diferentes activities?</p>
+		<r correct="true">Application</r>
+		<r>SimpleSingleton</r>
+		<r>ObjectsForDaPeople</r>
+	</pregunta>
+	<pregunta index="11">
+		<p lang="ca_ES">Hem de signar una aplicació per pujar-la al Android Market?</p>
+		<p lang="es_ES">¿Hemos de firmar una aplicación para subirla al Android Market?</p>
+		<r correct="true">Si</r>
+		<r>No</r>
+		<r>Quizá</r>
+	</pregunta>
+	<pregunta index="12">
+		<p lang="ca_ES">Com es diu el tipus de d'imatge PNG que permet estirar-se pels 4 cantons segons un patró?</p>
+		<p lang="es_ES">¿Cómo se llama el tipo de imagen PNG que permite estirarse por los 4 lados según un patrón?</p>
+		<r correct="true">Nine Patch</r>
+		<r>Stretchable PNG</r>
+		<r>4Koma</r>
+	</pregunta>
+	<pregunta index="13">
+		<p lang="ca_ES">Com es diu la classe que permet fer una mena de "subactivity" dintre d'una activity?</p>
+		<p lang="es_ES">¿Cómo se llama la clase que permite hacer una especie de "subactivity" dentro de una activity?</p>
+		<r correct="true">Fragment</r>
+		<r>PieceOfActivity</r>
+		<r>ReciclableActivity</r>
+	</pregunta>
+	<pregunta index="14">
+		<p lang="ca_ES">Si volem saber si és la primera vegada o no que executem una aplicació, quin mecanisme podem emprar?</p>
+		<p lang="es_ES">¿Si queremos saber si es la primera vez o no que ejecutamos una aplicación, que mecanismos podemos utilizar?</p>
+		<r correct="true">SharedPreferences</r>
+		<r>SQLitePreferences</r>
+		<r>Class fields</r>
+	</pregunta>
+	<pregunta index="15">
+		<p lang="ca_ES">Quin dels següents directoris de recursos no permet accedir a fitxers de qualsevol tipus?</p>
+		<p lang="es_ES">¿Cuál de los siguientes directorios de recursos no permite acceder a ficheros de cualquier tipos?</p>
+		<r correct="true">res/xml</r>
+		<r>assets</r>
+		<r>res/raw</r>
+	</pregunta>
+	<pregunta index="16">
+		<p lang="ca_ES">Si volem invocar un Service a partir d'un PendingIntent d'una Alarm, quin element captura l'Intent i aixeca el Service?</p>
+		<p lang="es_ES">¿Si queremos invocar un Service a partir de un PendingIntent de una Alarm, qué elemento captura el Intent i levanta el Service?</p>
+		<r correct="true">BroadcastReceiver</r>
+		<r>IntentReceiver</r>
+		<r>IntentReceiverAndServiceRiser</r>
+	</pregunta>
+	<pregunta index="17">
+		<p lang="ca_ES">Quin dels següents no és un parser XML implementat a Android?</p>
+		<p lang="es_ES">¿Cuál de los siguientes no es un parser XML implementado en Android?</p>
+		<r correct="true">XMLExtractorPlus</r>
+		<r>XmlPullParser</r>
+		<r>Sax</r>
+	</pregunta>
+	<pregunta index="18">
+		<p lang="ca_ES">Quin dels següents elements s'executa en el Main Thread d'una aplicació d'Android?</p>
+		<p lang="es_ES">¿Cuál de los siguientes elementos se ejecuta en el Main Thread de una aplicación de Android?</p>
+		<r correct="true">Activity</r>
+		<r>AsyncTask</r>
+		<r>Thread</r>
+	</pregunta>
+	<pregunta index="19">
+		<p lang="ca_ES">Quin és el kit de desenvolupament que ens permet programar aplicacions Android en C/C++?</p>
+		<p lang="es_ES">¿Cuál es el kit de desarrollo que nos permite programar aplicaciones Android en C/C++?</p>
+		<r correct="true">Native Development Kit (NDK)</r>
+		<r>Software Development Kit (SDK)</r>
+		<r>X-Code</r>
+	</pregunta>
+	<pregunta index="20">
+		<p lang="ca_ES">De quin color és la mascota d'Android?</p>
+		<p lang="es_ES">¿De qué color es la mascota de Android?</p>
+		<r correct="true">Green droid</r>
+		<r>White apple</r>
+		<r>Black berry</r>
+	</pregunta>
+</test>

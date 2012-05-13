@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AppTheme">
+        <attr name="actionbarCompatHomeButtonStyle" format="reference" />
+        <attr name="actionbarCompatRefreshButtonStyle" format="reference" />
+        <attr name="actionbarCompatSeparatorStyle" format="reference" />
+        <attr name="actionbarCompatTextStyle" format="reference" />
+        <attr name="examinationImageStyle" format="reference" />
+        <attr name="examinationText1Style" format="reference" />
+        <attr name="examinationText2Style" format="reference" />
+
+    </declare-styleable>  
+ 
+	<declare-styleable name="ActionBarCompat">
+		<attr name="showHomeButton" format="boolean"/>
+	</declare-styleable>
+
+</resources>

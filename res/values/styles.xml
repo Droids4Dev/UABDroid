@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme is the default theme. -->
+    <style name="Theme" parent="android:style/Theme" />
+
+    <!-- Variation on the Light theme that turns off the title -->
+    <style name="Theme.UABDroid" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/theme_GreenLight</item>
+
+        <!-- for programmatic instantiation -->
+        <item name="actionbarCompatHomeButtonStyle">@style/HomeButton_ActionBar</item>
+        <item name="actionbarCompatRefreshButtonStyle">@style/RefreshButton_ActionBar</item>
+        <item name="actionbarCompatSeparatorStyle">@style/SeparatorRefreshImageView_ActionBar</item>
+        <item name="actionbarCompatTextStyle">@style/TextView_ActionBar</item>
+        <item name="examinationImageStyle">@style/Image_Results_Test</item>
+        <item name="examinationText1Style">@style/TextView_Results_Test</item>
+        <item name="examinationText2Style">@style/TextView_Results_Test</item>
+
+    </style>
+
+
+    <style name="HomeButton_ActionBar">
+  		<item name="android:layout_height">match_parent</item>
+  		<item name="android:layout_width">wrap_content</item>
+  		<item name="android:src">@drawable/actionbar_compat_home_button</item>
+  		<item name="android:layout_weight">0</item>
+  		<item name="android:paddingTop">5dip</item>
+  		<item name="android:paddingBottom">5dip</item>
+  		<item name="android:paddingLeft">10dip</item>
+  		<item name="android:paddingRight">12dip</item>
+  		<item name="android:maxWidth">0px</item>
+		<item name="android:id">@id/homeButton</item>
+  		<item name="android:scaleType">center</item>
+  		<item name="android:layout_gravity">center_vertical</item>
+		 <item name="android:background">@drawable/actionbar_compat_button</item>
+    	<!-- <item name="android:layout_marginTop">5px</item> -->
+  	</style>
+
+    <style name="RefreshButton_ActionBar" parent="@android:style/Widget.ImageButton">
+  		<item name="android:layout_height">match_parent</item>
+  		<item name="android:layout_width">wrap_content</item>
+  		<item name="android:src">@drawable/actionbar_compat_refresh_button</item>
+  		<item name="android:layout_weight">0</item>
+  		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:id">@id/refreshButton</item>
+  		<item name="android:scaleType">center</item>
+		 <item name="android:background">@drawable/actionbar_compat_button</item>
+  		<item name="android:paddingTop">5dip</item>
+  		<item name="android:paddingBottom">5dip</item>
+  		<item name="android:paddingLeft">12dip</item>
+  		<item name="android:paddingRight">10dip</item>
+
+		<!-- <item name="android:layout_marginTop">5px</item> -->
+  	</style>
+
+    <style name="TextView_ActionBar">
+        <item name="android:id">@id/actionBarTextView</item>
+        <item name="android:layout_height">wrap_content</item>
+   		<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/actionbar_text</item>
+        <item name="android:shadowColor">#fff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.00001</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>  		
+  	</style>
+
+    <style name="SeparatorRefreshImageView_ActionBar">
+        <item name="android:layout_width">2px</item>
+        <item name="android:layout_height">match_parent</item>
+   		<item name="android:layout_weight">0</item>   		
+        <item name="android:background">@drawable/actionbar_compat_separator</item>
+    </style>
+    
+   <style name="ActionBarCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/actionbar_compat_background</item>
+		<item name="android:layout_weight">0</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    <style name="TextView_Results_Test">
+        <item name="android:layout_height">match_parent</item>
+   		<item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">38sp</item>
+		<item name="android:layout_alignTop">@+id/imageResult</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/test_results_text</item>
+        <item name="android:shadowColor">#fff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.00001</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>  		
+  	</style>
+
+    <style name="Image_Results_Test">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:id">@id/imageResult</item>
+    </style>
+    
+    <style name="TextView_Question_Title" parent="android:Widget.TextView">
+        <item name="android:text">@string/examination_question_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+   		<item name="android:layout_width">match_parent</item>
+   		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+   		<item name="android:layout_weight">0</item>
+  	</style>
+
+    <style name="TextView_Question" parent="android:Widget.TextView">
+        <item name="android:text">Question</item>
+        <item name="android:textColor">@color/theme_GreenDark</item>
+        <item name="android:layout_height">wrap_content</item>
+   		<item name="android:layout_width">match_parent</item>
+   		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginTop">20dip</item>
+   		<item name="android:layout_weight">0</item>
+  	</style>
+
+    <style name="TextView_Answer" parent="android:Widget.TextView">
+        <item name="android:text">Answer</item>
+        <item name="android:layout_height">wrap_content</item>
+   		<item name="android:layout_width">wrap_content</item>
+   		<item name="android:layout_weight">0</item>
+  	</style>  
+
+    <style name="TextView_TitleDark" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/theme_GreenDark</item>
+  	</style>
+  	
+</resources>

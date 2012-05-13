@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/next_session_widget_layout"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg_widget"
+	android:paddingLeft="22sp"
+	android:paddingRight="20sp"
+	android:paddingTop="23sp"
+	android:paddingBottom="25sp"
+	>
+<!-- android:background="#F111" -->	
+	
+	<TextView android:id="@+id/next_session_name" 
+		android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	android:textColor="@color/theme_GreenDark"/>
+	
+	<TextView android:id="@+id/next_session_date" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	android:textColor="@color/theme_GreenNeutral"/>
+	
+	<TextView android:id="@+id/next_session_description" 
+		android:textAppearance="?android:attr/textAppearanceSmall" 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fadingEdge="vertical"
+		android:paddingTop="2sp"
+		android:paddingBottom="5sp"
+	android:textColor="#000000"/>
+	
+</LinearLayout>

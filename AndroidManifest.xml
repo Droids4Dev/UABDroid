@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.uab.deic.uabdroid"
+      android:versionCode="4"
+      android:versionName="1.0.3">
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	
+    <application android:icon="@drawable/ic_launcher" 
+    	android:label="@string/app_name" 
+    	android:theme="@style/Theme.UABDroid"
+    	android:name=".UABDroidApplication" 
+   		android:debuggable="true">
+        
+        <!-- Activities -->
+        
+        <activity android:name=".AppPreferencesActivity"
+        	android:screenOrientation="portrait"/>
+        
+        <activity android:name=".ExaminationActivity" 
+        	android:configChanges="keyboardHidden|orientation"
+        	android:screenOrientation="portrait"/>
+        
+		<activity android:name=".GeneralInfoActivity"
+        	android:screenOrientation="portrait"/>
+        
+		<activity android:name=".MainActivity"
+			android:label="@string/app_name"
+			configChanges="orientation|keyboardHidden"
+			android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".SessionDetailsActivity"
+        	android:screenOrientation="portrait">
+        	<intent-filter>
+        		<action android:name="org.uab.deic.uabdroid.SESSION_DETAILS_INTENT"/>
+        		<category android:name="android.intent.category.DEFAULT"/>
+	      	</intent-filter>
+	      	<intent-filter>
+	      		<action android:name="org.uab.deic.uabdroid.SESSION_DETAILS_INTENT"/>
+	      		<category android:name="android.intent.category.DEFAULT"/>
+	      		<data android:mimeType="vnd.android.cursor.item/vnd.uab.deic.session" />
+	      	</intent-filter>
+		</activity>
+        
+        <activity android:name=".SessionListActivity"
+        	android:screenOrientation="portrait"/>
+        
+		<activity android:name=".services.UABDroidLiveFolders$SessionsLiveFolder"
+			android:label="@string/live_folder_name"
+			android:icon="@drawable/ic_launcher" >
+			<intent-filter>
+				<action android:name="android.intent.action.CREATE_LIVE_FOLDER"/>
+			</intent-filter>
+		</activity>
+
+        <!-- Services -->
+
+		<service android:enabled="true" 
+		    android:name=".services.AlarmService"/>
+		
+		<service android:enabled="true" 
+		    android:name=".services.UpdateService"/>
+        
+        <!-- Receivers -->
+        
+		<receiver android:name=".services.UABDroidReceiver">
+			<intent-filter>
+				<action android:name="org.uab.deic.uabdroid.UPDATE_INTENT"/>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="org.uab.deic.uabdroid.ALARM_INTENT"/>
+			</intent-filter>
+		</receiver>
+        
+		<receiver android:name=".services.NextSessionWidget" 
+		    android:label="@string/next_session_widget_label">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+   			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/nextsession_widget_info"/>
+   		</receiver>
+        
+        <!-- Providers -->
+        
+		<provider android:name=".services.SessionsProvider"
+			android:authorities="org.uab.deic.provider.uabdroid"/>
+        
+    </application>
+</manifest>

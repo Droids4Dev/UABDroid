@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE doc_type [
+          <!ENTITY nbsp "&#160;">
+]>
+<sessions>
+	<sessio index="1">
+		<titol lang="ca_ES">Introducció a Android</titol>
+		<titol lang="es_ES">Introducción a Android</titol>
+		<aula>Q5/2008</aula>
+		<data>15/10/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			En aquesta primera sessió introduïrem el sistema operatiu Android, fent un repàs de la seva història, i observant quines consideracions especials haurem de tenir en compte a l'hora de programar per aquesta plataforma, que no ens calien en els ordinadors tradicionals.&lt;br/>&lt;br/>
+			A continuació, des d'una vessant més pràctica, introduirem les eines habituals de desenvolupament, així com els elements bàsics d'un projecte de desenvolupament d'Android.&lt;br/>&lt;br/>
+			Finalment, començarem a veure el funcionament particular d'aquest sistema operatiu per a dispositius mòvils estudiant el cicle de vida d'una aplicació.&lt;br/>&lt;br/>
+		</contingut>
+		<contingut lang="es_ES">
+			En esta primera sesión introduciremos el sistema operativo Android, haciendo un repaso de su història, y observando que consideraciones especiales tendremos que tener en cuenta a la hora de programar para esta plataforma, que no nos hacían falta en los ordenadores tradicionales.&lt;br/>&lt;br/>
+			A continuación, desde una perspectiva más práctica, introduciremos las herramientas habituales de desarrollo, así como los elementos básico de un proyecto de desarrollo de Android.&lt;br/>&lt;br/>
+			Finalmente, comenzaremos a ver el funcionamiento particular de este sistema operativo para dispostivos móbiles estudiando el ciclo de vida de una aplicación.&lt;br/>&lt;br/>
+		</contingut>
+		<materials>
+			<material index="3"/>
+		</materials>
+		<fonts>
+			<font index="1"/>
+			<font index="2"/>
+			<font index="3"/>
+			<font index="4"/>
+			<font index="5"/>
+			<font index="6"/>
+		</fonts>
+	</sessio>
+	<sessio index="2">
+		<titol lang="ca_ES">Interfície d'usuari</titol>
+		<titol lang="es_ES">Interfaz de usuario</titol>
+		<aula>Q5/2008</aula>
+		<data>22/10/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			Havent-nos introduït en el cicle de vida d'una aplicació, aquesta sessió la dedicarem a veure tots els elements necessaris per tal de crear una interfície d'usuari. Introduirem les classes de tipus Activity, encarregades de gestionar les pantalles de la nostra aplicació, i les les classes de tipus View, que seran els elements de la nostra intefície.&lt;br/>&lt;br/>
+			Veurem també altres elements que tenen un funcionament diferenciat de les classes anteriors, però també pertanyents a les UIs d'Android, com són els menús o els diàlegs.&lt;br/>&lt;br/>
+			Finalment, no descuidarem les novetats que es van afegir a Honeycomb per a UIs de tablets, com els Fragments i la ActionBar; especialment els primers, donat que també els podrem fer servir en les versions per a telèfons mòvils que fem de les nostres aplicacions, reduint el codi necessari per desenvolupar una versió tenint-ne l'altre.&lt;br/>&lt;br/>
+		</contingut>
+		<contingut lang="es_ES">
+			Habiéndonos introducido en el ciclo de vida de una aplicación, esta sesión la dedicaremos a ver todos los elementos necesarios para crear una interficie de usuario. Introduciremos las clases de tipo Activity, encargadas de gestionar las pantallas de nuestra aplicación, y las clases de tipo View, que serán los elementos de nuestra interficie.&lt;br/>&lt;br/>
+			Veremos también otros elementos que tienen un funcionamient diferenciado de las clases anteriores, pero también pertenecientes a las UIs de Android, como són los menús o los diálogos.&lt;br/>&lt;br/>
+			Finalmente, no descuidaremos las novedades que se añadieron a Honeycomb para UIs de tablets, como los Fragments y la ActionBar; especialmente los primeros, dado que también serà posible utilizarlos en las versiones para teléfonos móbiles que hagámos en nuestras aplicaciones, reduciendo el código necesario para desarrollar una versión teniendo la otra.&lt;br/>&lt;br/>
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+	<sessio index="3">
+		<titol lang="ca_ES">Desar i recuperar dades (I)</titol>
+		<titol lang="es_ES">Guardar y recuperar datos (I)</titol>
+		<aula>Q5/2008</aula>
+		<data>05/11/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			A aquestes alçades, ja sabem crear una aplicació amb la seva corresponent interfície d'usuari. En aquesta sessió, revisarem els mecanismes que té Android per tal d'emmagatzemar les dades que mostrarem i recollirem de l'usuari.&lt;br/>&lt;br/>
+			Però no només ens caldrà saber com emmagatzemar i recuperar les dades d'una base de dades, fitxers o SharedPreferences, sinó que també estudiarem com enllaçar les dades obtingudes a les Views, Activities i Fragments específics (com ListView, ListActivity o ListFragment), i també com fer accesibles les dades generades a una activitat, que no ens calgui guardar a disc, per a una altra activitat sense necessitat de recòrrer a un dels mecanismes anteriors.&lt;br/>&lt;br/>
+		</contingut>
+		<contingut lang="es_ES">
+			A estas alturas, ya sabemos crear una aplicación con su correspondiente interfície de usuario. En esta sesón, revisaremos los mecanismos que tiene Android para guardar los datos que mostraremos y recogeremos del usuario.&lt;br/>&lt;br/>
+			Però no sólo nos hará falta saber como guardar y recuperar datos de una base de datos, ficheros o SharedPreferences, sinó que también estudiaremos como enlazar los datos obtenidos con las Views, Activities y Fragments específicos (como ListView, ListActivity o ListFragment) i también como hacer accesibles los datos generados en una actividad, que no nos haga falta guardar en diso, por otra actividad sin necesidad de recurrir a uno de los mecanismos anteriores.&lt;br/>&lt;br/>
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+	<sessio index="4">
+		<titol lang="ca_ES">Desar i recuperar dades (II)</titol>
+		<titol lang="es_ES">Guardar y recuperar datos (II)</titol>
+		<aula>Q5/2008</aula>
+		<data>12/11/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			Properament!
+		</contingut>
+		<contingut lang="es_ES">
+			¡Próximamente!
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+	<sessio index="5">
+		<titol lang="ca_ES">Treballant en background</titol>
+		<titol lang="es_ES">Trabajando en background</titol>
+		<aula>Q5/2008</aula>
+		<data>19/11/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			Properament! 
+		</contingut>
+		<contingut lang="es_ES">
+			¡Próximamente!
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+	<sessio index="6">
+		<titol lang="ca_ES">Oferint els nostres continguts i agafant-ne de tercers</titol>
+		<titol lang="es_ES">Ofreciendo nuestros contenidos y cogiendo de terceros</titol>
+		<aula>Q5/2008</aula>
+		<data>16/11/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			Properament! 
+		</contingut>
+		<contingut lang="es_ES">
+			¡Próximamente!
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+	<sessio index="7">
+		<titol lang="ca_ES">Serveis basats en el posicionament</titol>
+		<titol lang="es_ES">Servicios basados en el posicionamiento</titol>
+		<aula>Q5/2008</aula>
+		<data>03/12/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			Properament! 
+		</contingut>
+		<contingut lang="es_ES">
+			¡Próximamente!
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+	<sessio index="8">
+		<titol lang="ca_ES">Accés al Hardware</titol>
+		<titol lang="es_ES">Acceso al Hardware</titol>
+		<aula>Q5/2008</aula>
+		<data>10/12/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			Properament! 
+		</contingut>
+		<contingut lang="es_ES">
+			¡Próximamente!
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+	<sessio index="9">
+		<titol lang="ca_ES">Més enllà del SDK</titol>
+		<titol lang="es_ES">Más allá del SDK</titol>
+		<aula>Q5/2008</aula>
+		<data>17/12/2011</data>
+		<hora>9:00</hora>
+		<contingut lang="ca_ES">
+			Properament! 
+		</contingut>
+		<contingut lang="es_ES">
+			¡Próximamente!
+		</contingut>
+		<materials>
+		</materials>
+		<fonts>
+		</fonts>
+	</sessio>
+</sessions>

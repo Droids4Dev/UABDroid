@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global -->
+    <string name="app_name">UABDroid</string>
+    <string name="app_title">Curso de Android</string>
+    <string name="app_text_sessions">Sesiones</string>
+    <string name="app_text_calendar">Calendario</string>
+    <string name="app_text_examination">Test</string>
+    <string name="app_text_information">Información</string>
+    <!-- ****** -->
+    
+    <!-- Main activity -->
+    <string name="init_dialog_title">Inicializando aplicación por primera vez&#8230;</string>
+    <string name="main_initial_load_ok">Carga inicial completada</string>
+    <string name="main_initial_load_nok">Error en la carga inicial. Carga no completada</string>
+	<!-- ************* -->
+	
+	<!--  BaseActivity  -->
+	<string name="about_dialog_about">Acerca de</string>
+	<string name="about_dialog_text">
+		\tEsta aplicación ha sido desarrollada por Droids4Dev.\n\n
+		\tSi deseas contactar con los desarrolladores, puedes 
+		hacerlo mediante la dirección de correo info@droids4dev.com\n\n
+		\tAlgunas partes de esta aplicación son modificaciones basadas en el trabajo creado y compartido por Google según las condiciones descritas en la Creative Commons 3.0 Attribution.
+	</string>
+	<!-- ************* -->
+	
+	<!-- Examination activity -->
+    <string name="examination_question_title">Pregunta</string>
+    <string name="button_next">Siguiente</string>
+    <string name="button_previous">Anterior</string>
+    <string name="button_result">Final</string>
+    <string name="pass_1">YOU WIN THIS TIME!</string>
+    <string name="pass_2"></string>
+    <string name="fail_1">SON&#8230;</string>
+    <string name="fail_2">I AM DISAPPOINT</string>
+    <!-- ************* -->
+	
+	<!-- SessionsAndDetailsActivity -->
+	<string name="session_text">Sesión</string>
+    <!-- ************* -->    
+    
+    <!-- menu items -->
+    <string name="menu_preferences">Preferencias</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_about">Acerca de</string>
+	<!-- **************** -->
+	
+	<!-- tabs items -->
+    <string name="tab_information">Información</string>
+    <string name="tab_materials">Materiales</string>
+    <string name="tab_sources">Fuentes</string>
+    <string name="tab_info">Información general</string>
+	<string name="tab_faq">Preguntas frecuentes</string>
+	<!-- ************* -->    
+	
+	<!-- Widget -->
+	<string name="next_session_widget_label">Siguiente sesión de UABDroid</string>
+	<string name="next_session_widget_text">Siguiente sesión del curso:</string>
+	<string name="next_session_widget_default_title">Curso finalizado</string>
+	<string name="next_session_widget_default_content">Hasta la próxima edición!</string>
+	<!-- *************************************************** -->
+	
+	<!-- Live Folder -->
+	<string name="live_folder_name">Lista de sesiones</string>
+	<!-- *************************************************** -->
+
+    
+	<!-- User Preferences -->
+	<string name="user_preferences_category_alarms">Notificaciones</string>
+	<string name="user_preferences_next_session_alerts_title">Alertas de sesión</string>
+	<string name="user_preferences_next_session_alerts_text">Selecciona para activar las alertas</string>
+	<string name="user_preferences_next_session_alert_frequency_title">Frecuencia de les alertas</string>
+	<string name="user_preferences_next_session_alert_frequency_text">Frecuencia con la que se comprueba si se ha de lanzar una alerta para avisar de una sesión próxima</string>
+	<string name="user_preferences_next_session_alert_frequency_dialog_title">Frecuencia de las alertas</string>
+	<string name="user_preferences_next_session_window_interval_title">Intervalo de la próxima alerta</string>
+	<string name="user_preferences_next_session_window_interval_text">Margen de tiempo antes de la próxima sesión, a partir de la cual comenzará a emitir recordatorios según la frecuencia escogida</string>
+	<string name="user_preferences_next_session_window_interval_dialog_title">Intervalo de la próxima alerta</string>
+	
+	<string name="user_preferences_automatic_updates_title">Actualizaciones de contenido automáticas</string>
+	<string name="user_preferences_automatic_updates_text">Selecciona para activar las actualizaciones automáticas de la información de la aplicación</string>
+	<string name="user_preferences_automatic_updates_frequency_title">Frecuencia de las actualizaciones</string>
+	<string name="user_preferences_automatic_updates_frequency_text">Frecuencia con la que se comprueba si se han de actualizar los contenidos de la aplicación</string>
+	<string name="user_preferences_automatic_updates_frequency_dialog_title">Frecuencia de las actualizaciones</string>
+	<!-- ************* --> 
+	
+	<!-- Notifications -->
+	<string name="next_session_notification_warning">Se acerca una sesión del curso</string>
+	<string name="next_session_notification_text">Próxima sesión del curso de Android en breve</string>
+    <string name="next_session_notification_title">Alerta de proximidad de sesión</string>
+    <!-- ************* -->
+    <string name="droids4dev_image">droids4dev image</string>
+    <string name="action_bar_home_button">Action bar home button</string>
+    <string name="title_action_bar">Title</string>
+    <string name="separator_action_bar">separator</string>
+    <string name="action_bar_refresh_button">action bar refresh button</string>
+    <string name="element_sources_list_icon">element icon</string>
+    <string name="big_uabdroid_android">Big UABDroid Android</string>
+    <string name="line_of_androids_descending">Line of Androids descending</string>
+    <string name="session_separator">" - "</string> 
+     
+</resources>

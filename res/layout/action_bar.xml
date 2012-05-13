@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutActionBar" 
+	style="@style/ActionBarCompat">
+    
+    <ImageButton 
+    	android:id="@+id/homeButton" 
+    	style="@style/HomeButton_ActionBar" 
+    	android:contentDescription="@string/action_bar_home_button"/>
+
+    <ImageView 
+    	android:id="@+id/separatorRefreshButton1"
+    	style="@style/SeparatorRefreshImageView_ActionBar"
+    	android:contentDescription="@string/separator_action_bar"/>
+    	    	
+    <TextView android:text="@string/title_action_bar" 
+    	style="@style/TextView_ActionBar"
+    	android:id="@+id/actionBarTextView"/>
+    	
+    <ImageView 
+    	android:id="@+id/separatorRefreshButton2"
+    	style="@style/SeparatorRefreshImageView_ActionBar"
+    	android:contentDescription="@string/separator_action_bar"/>
+    	
+    <ImageButton 
+    	android:id="@+id/refreshButton"
+		style="@style/RefreshButton_ActionBar"
+		android:contentDescription="@string/action_bar_refresh_button"/>
+    
+</LinearLayout>

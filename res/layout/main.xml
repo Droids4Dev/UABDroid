@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/org.uab.deic.uabdroid"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <org.uab.deic.uabdroid.ActionBarCompat 
+    	android:id="@+id/actionBarCompat1"
+    	custom:showHomeButton="false"  
+    	style="@style/ActionBarCompat"/>
+    
+    <LinearLayout android:id="@+id/linearLayout2" 
+        android:layout_height="match_parent" 
+        android:layout_width="match_parent" >
+        
+        <LinearLayout android:id="@+id/linearLayout1" 
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical|top" 
+            android:orientation="vertical" 
+            android:layout_width="match_parent" 
+            android:layout_weight="1" 
+            android:paddingLeft="10dip" 
+            android:paddingRight="10dip">
+            
+            <Button android:text="@string/app_text_information" 
+                android:layout_width="match_parent" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/buttonInformation" 
+                android:background="@drawable/main_information_button" 
+                android:textScaleX="0.8" 
+                android:textSize="26dp" 
+                android:textStyle="bold" 
+                android:textColor="@color/theme_GreenDark" 
+                android:layout_marginTop="10dip" 
+                android:gravity="left"/>
+            
+            <Button android:background="@drawable/main_sessions_button" 
+                android:text="@string/app_text_sessions" 
+                android:textColor="@color/theme_GreenDark" 
+                android:layout_width="match_parent" 
+                android:textSize="26dp" 
+                android:textScaleX="0.8" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/buttonSessions" 
+                android:textStyle="bold" 
+                android:gravity="right" 
+                android:layout_marginTop="5dip"/>
+            
+            <Button android:background="@drawable/main_test_button" 
+                android:text="@string/app_text_examination" 
+                android:textColor="@color/theme_GreenDark" 
+                android:layout_width="match_parent" 
+                android:textSize="26dp" 
+                android:textScaleX="0.8" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/buttonExamination" 
+                android:textStyle="bold" 
+                android:gravity="left" 
+                android:layout_marginTop="5dip"/>
+            
+            <ImageView android:id="@+id/imageView1" 
+                android:src="@drawable/droidmain" 
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent" 
+                 android:layout_gravity="bottom" 
+                 android:scaleType="fitEnd"
+                 android:contentDescription="@string/big_uabdroid_android"/>
+            
+        </LinearLayout>
+		
+		<ImageView android:id="@+id/imageViewDroids" 
+		    android:background="@drawable/droids" 
+		    android:layout_weight="0" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="match_parent"
+		    android:contentDescription="@string/line_of_androids_descending"/>
+		       
+    </LinearLayout>
+    
+</LinearLayout>

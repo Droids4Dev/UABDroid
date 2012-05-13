@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/org.uab.deic.uabdroid"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <org.uab.deic.uabdroid.ActionBarCompat 
+    	android:id="@+id/actionBarCompat1"
+    	custom:showHomeButton="true"  
+    	style="@style/ActionBarCompat"/>
+    	
+    <TabHost
+    	android:id="@android:id/tabhost"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    	
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" 
+			android:layout_height="match_parent">
+			
+			<View android:layout_width="match_parent" 
+			    android:layout_height="0.5dip"
+                android:background="#000" />
+			
+	        <TabWidget
+	            android:id="@android:id/tabs"
+	            android:orientation="horizontal"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="0dip" 
+	            android:layout_marginRight="0dip"/>
+	        
+	        <View android:layout_width="match_parent" 
+	            android:layout_height="3dip"
+				android:background="@color/theme_GreenDark" />
+	            	        
+	        <FrameLayout
+	            android:id="@android:id/tabcontent"
+	            android:layout_width="0dp"
+	            android:layout_height="0dp"/>
+	        
+		</LinearLayout>
+	</TabHost>
+	
+	<FrameLayout
+		android:id="@+android:id/realtabcontent"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+	            
+</LinearLayout>

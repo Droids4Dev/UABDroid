@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_text">#FFFFFF</color>
+
+    <color name="FAQFragment_Answer_text">@color/theme_GreenDark</color>
+    <color name="MaterialsFragment_Child_text">@color/theme_GreenDark</color>
+    
+    <color name="session_description">@color/theme_GreenDark</color>
+
+    <color name="theme_GreenDark">#329300</color>
+    <color name="theme_GreenNeutral">#AADE32</color>
+    <color name="theme_GreenLight">#D9F38E</color>
+
+    <color name="test_results_text">#ff29549f</color>
+</resources>

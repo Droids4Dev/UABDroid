@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE doc_type [
+          <!ENTITY nbsp "&#160;">
+]>
+<info>
+	<versio lang="ca_ES">
+		<general>
+			Aquest és un curs d'iniciació a la programació d'aplicacions en Android, tant per a telèfons mòbils com per a tablets. El curs pretén introduir conceptes bàsics i alguns d'avançats sobre el sistema operatiu per a dispositius mòbils de Google, establint una sèrie de bones pràctiques per a la programació en aquest sistema.&lt;br/>&lt;br/>
+			El curs està adreçat als estudiants d'enginyeria informàtica, però està obert també a la resta d'estudiants - tenint en compte que &lt;b>és un requisit indispensable saber programació orientada a objectes&lt;/b> -, i a professionals del món de la informàtica que vulguin formar-se en aquest àmbit. El preu per a estudiants de l'Universitat Autònoma de Barcelona és de 199 €, mentre que per la resta és de 599 €. La matriculació es realitzarà a Gestió Acadèmica de l'Escola a partir del 20 de Setembre. En el cas de preofessionals provinents d'una empresa, si us plau, posseu-vos en contacte previament amb el professor del curs Rubén Serrano (rserrano@deic.uab.cat).&lt;br/>&lt;br/>
+			El curs serà impartit a &lt;b>l'Escola d'Enginyeria de la Universitat Autònoma de Barcelona&lt;/b>, en horari de 9:00 a 14:00, durant 9 dissabtes, i té, per tant, una durada total de 45 hores. El curs tindrà dues edicions, començant la primera a l'Octubre i la segona al Març, el límit de places de cadascuna serà de 24. Podeu trovar les dates concretes de les sessions a l'apartat "Sessions" d'aquesta aplicació.&lt;br/>&lt;br/>
+			Aquest curs pot ser convalidat per 3 crèdits de lliure el·lecció en els plans d'ensenyament antics, sempre que se superi una prova al final del curs. A la secció "Test" de l'aplicatiu es pot realitzar un simulacre d'aquesta prova, amb preguntes del mateix estil que les que sortiran a la prova real.&lt;br/>&lt;br/>
+			Per qualsevol altre dubte, consulteu la secció de preguntes freqüents (FAQ) o envieu un correu a Rubén Serrano (rserrano@deic.uab.cat).&lt;br/>&lt;br/>
+		</general>
+		<faqs>
+			<pregunta>
+				<p>És necessari saber Java?</p>
+				<r>No, però és recomenable. No obstant, és imprescindible saber programació orientada a objectes.</r>	
+			</pregunta>
+			<pregunta>
+				<p>És necessari disposar d'un telèfon mòbil o d'una tableta amb Android?</p>
+				<r>No, si no en teniu o no el voleu fer servir hi ha la possibilitat d'utilitzar un emulador.</r>
+			</pregunta>
+			<pregunta>
+				<p>Aquest curs està dirigit a alumnes del pla antic o de Grau?</p>
+				<r>Per a tothom. L'única diferència és que els alumnes de pla antic poden obtenir crèdits de lliure el·lecció.</r>
+			</pregunta>
+			<pregunta>
+				<p>És obligatori fer el test final?</p>
+				<r>Només per als alumnes del pla antic que vulguin obtenir crèdits de lliure el·lecció.</r>
+			</pregunta>
+		</faqs>
+	</versio>
+	<versio lang="es_ES">
+		<general>
+			Este es un curso de iniciación a la programación de aplicaciones en Android, tanto para teléfonos móviles como para tablets. El curso pretende introducir conceptos básicos i algunos avanzados sobre el sistema operativo para dispositivos móviles de Google, estableciendo una serie de buenas prácticas para la programación en este sistema.&lt;br/>&lt;br/>
+			El curso está indicado para estudiantes de ingeniería informática, pero está abierto también al resto de estudiantes - teniendo en cuenta que &lt;b>es un requisito indispensable saber programación orientada a objetos&lt;/b> -, y a profesionales del mundo de la informática que quieran formarse en este ámbito. El precio para estudiantes de l'Universidad Autónoma de Barcelona es de 199 €, mientras que para el resto es de 599 €. La matriculación se realizará en Gestión Académica de la Escuela a partir del 20 de Septiembre. En el caso de profesionales provenientes de una empresa, se ruega que se pongan en contacto previamente con el profesor del curso Rubén Serrano (rserrano@deic.uab.cat).&lt;br/>&lt;br/>
+			El curso será impartido en la &lt;b>Escuela de Ingeniería de la Universidad Autónoma de Barcelona&lt;/b>, en horario &lt;b>de 9:00 a 14:00&lt;/b>, durante 9 sábados, y tiene, por tanto, una duración total de 45 horas. El curso tendrá dos ediciones, empezando la primera en Octubre y la segunda en Marzo, y el límite de plazas de cada una será de 24. Podéis encontrar las fechas concretas de las sesiones de la primera edición en el apartado "Sesiones" de esta aplicación.&lt;br/>&lt;br/>
+			Este curso puede ser convalidado por 3 crèditos de libre elección de los planes de enseñanza antiguos, siempre que se supere una prueba al final del curso. En la sección "Test" de la aplicación se puede realizar un simulacro de dicha prueba, con preguntas del mismo estilo que las que se pondrán en la prueba real.&lt;br/>&lt;br/>
+			Para cualquier otra duda, consultad la sección de preguntas frecuentes (FAQ) o enviad un correo a Rubén Serrano (rserrano@deic.uab.cat).&lt;br/>&lt;br/>
+		</general>
+		<faqs>
+			<pregunta>
+				<p>¿Es necesario saber Java?</p>
+				<r>No, pero es recomenable. No obstante, es imprescindible saber programación orientada a objetos.</r>	
+			</pregunta>
+			<pregunta>
+				<p>¿Es necesario disponer de un teléfono móvil o de una tablet con Android?</p>
+				<r>No, si no tenéis o no lo queréis utilizar hay la posibilidad de utilizar un emulador.</r>
+			</pregunta>
+			<pregunta>
+				<p>¿Este curso está dirigido a alumnos del plan antiguo o de Grado?</p>
+				<r>Para todos. La única diferencia es que los alumnos del plan antiguo pueden obtener créditos de libre elección.</r>
+			</pregunta>
+			<pregunta>
+				<p>¿Es obligatorio hacer el test final?</p>
+				<r>Sólo para los alumnos del plan antiguo que quieran obtener créditos de libre elección.</r>
+			</pregunta>
+		</faqs>
+	</versio>
+</info>

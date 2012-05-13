@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+ 	android:layout_height="match_parent" 
+	android:paddingLeft="15dp"
+	android:paddingTop="7dp"
+	android:paddingBottom="7dp">
+	
+	<TextView  
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/session_text"
+    	android:id="@+id/txtSession"
+    	android:textStyle="bold"
+    	android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView android:paddingLeft="4dp" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtNumOfSession"
+		android:layout_toRightOf="@id/txtSession"
+		android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+	
+	<TextView android:paddingLeft="4dp" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtUnderscore"
+		android:layout_toRightOf="@id/txtNumOfSession"
+		android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="@string/session_separator"/>
+
+	<TextView android:paddingLeft="4dp" 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtDate"
+		android:layout_toRightOf="@id/txtUnderscore"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+	
+	<TextView android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtName"
+		android:layout_below="@id/txtNumOfSession"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="@color/session_description"/>
+	
+ </RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actualitza>
+	<dades tipus="materials.xml" max_v="1.0"/>
+	<dades tipus="fonts.xml" max_v="1.0"/>
+	<dades tipus="sessio.xml" max_v="1.0"/>
+	<dades tipus="info.xml" max_v="1.0"/>
+	<dades tipus="test.xml" max_v="1.0"/>
+</actualitza>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts>
+	<font index="1" tipus="llibre">
+		<nom lang="ca_ES">Professional Android 2 Applicationt Development, per Reto Meier, editorial Wrox</nom>
+		<nom lang="es_ES">Professional Android 2 Applicationt Development, por Reto Meier, editorial Wrox</nom>
+		<descripcio lang="ca_ES">Capítols 1, 2 i 3</descripcio>
+		<descripcio lang="es_ES">Capítulos 1, 2 y 3</descripcio>
+		<url>http://www.wrox.com/WileyCDA/WroxTitle/Professional-Android-2-Application-Development.productCd-0470565527.html</url>
+	</font>
+	<font index="2" tipus="llibre">
+		<nom lang="ca_ES">Pro Android 3, per Satya Komatineni et al., editorial Apress</nom>
+		<nom lang="es_ES">Pro Android 3, por Satya Komatineni et al., editorial Apress</nom>
+		<descripcio lang="ca_ES">Capítols 1, 2 i 3</descripcio>
+		<descripcio lang="es_ES">Capítulos 1, 2 y 3</descripcio>
+		<url>http://www.apress.com/9781430232223</url>
+	</font>
+	<font index="3" tipus="guia">
+		<nom lang="ca_ES">Guia de desenvolupadors d'Android</nom>
+		<nom lang="es_ES">Guía de desarrolladores de Android</nom>
+		<descripcio lang="ca_ES">Què és Android?</descripcio>
+		<descripcio lang="es_ES">¿Qué es Android?</descripcio>
+		<url>http://developer.android.com/guide/basics/what-is-android.html</url>
+	</font>
+	<font index="4" tipus="guia">
+		<nom lang="ca_ES">Guia de desenvolupadors d'Android</nom>
+		<nom lang="es_ES">Guía de desarrolladores de Android</nom>
+		<descripcio lang="ca_ES">Fonaments d'aplicacions</descripcio>
+		<descripcio lang="es_ES">Fundamentos de aplicaciones</descripcio>
+		<url>http://developer.android.com/guide/topics/fundamentals.html</url>
+	</font>
+	<font index="5" tipus="guia">
+		<nom lang="ca_ES">Guia de desenvolupadors d'Android</nom>
+		<nom lang="es_ES">Guía de desarrolladores de Android</nom>
+		<descripcio lang="ca_ES">Desenvolupant</descripcio>
+		<descripcio lang="es_ES">Desarrollando</descripcio>
+		<url>http://developer.android.com/guide/developing/index.html</url>
+	</font>
+	<font index="6" tipus="guia">
+		<nom lang="ca_ES">Guia de desenvolupadors d'Android</nom>
+		<nom lang="es_ES">Guía de desarrolladores de Android</nom>
+		<descripcio lang="ca_ES">Nivells de la API d'Android</descripcio>
+		<descripcio lang="es_ES">Niveles de la API de Android</descripcio>
+		<url>http://developer.android.com/guide/appendix/api-levels.html</url>
+	</font>
+</fonts>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global -->
+    <string name="app_title">Curs d\'Android</string>
+    <string name="app_text_sessions">Sessions</string>
+    <string name="app_text_calendar">Calendari</string>
+    <string name="app_text_examination">Test</string>
+    <string name="app_text_information">Informació</string>
+    <!-- ****** -->
+    
+    <!-- Main activity -->
+    <string name="init_dialog_title">Inicialitzant aplicació per primera vegada&#8230;</string>
+    <string name="main_initial_load_ok">Càrrega inicial completada</string>
+    <string name="main_initial_load_nok">Error en la càrrega inicial. Càrrega no completada</string>
+	<!-- ************* -->
+	
+	<!--  BaseActivity  -->
+	<string name="about_dialog_about">Sobre</string>
+	<string name="about_dialog_text">
+		\tAquesta aplicació ha estat desenvolupada per Droids4Dev.\n\n
+		\tSi desitges contactar amb els desenvolupadors, pots fer-ho mitjançant l\'adreça de correu info@droids4dev.com\n\n
+		\tAlgunes parts d\'aquesta aplicació són modificacions basades en el treball creat i compartit per Google segons les condicions descrites a la Creative Commons 3.0 Attribution.
+	</string>
+	<!-- ************* -->
+	
+	<!-- Examination activity -->
+    <string name="examination_question_title">Pregunta</string>
+    <string name="button_next">Següent</string>
+    <string name="button_previous">Anterior</string>
+    <string name="button_result">Final</string>
+    <string name="pass_1">YOU WIN THIS TIME!</string>
+    <string name="pass_2"></string>
+    <string name="fail_1">SON&#8230; </string>
+    <string name="fail_2">I AM DISAPPOINT</string>
+    <!-- ************* -->
+	
+	<!-- SessionsAndDetailsActivity -->
+	<string name="session_text">Sessió</string>
+    <!-- ************* -->    
+    
+    <!-- menu items -->
+    <string name="menu_preferences">Preferències</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_about">Sobre</string>
+	<!-- **************** -->
+	
+	<!-- tabs items -->
+    <string name="tab_information">Informació</string>
+    <string name="tab_materials">Materials</string>
+    <string name="tab_sources">Fonts</string>
+    <string name="tab_info">Informació general</string>
+	<string name="tab_faq">Preguntes freqüents</string>
+	<!-- ************* -->    
+	
+	<!-- Widget -->
+	<string name="next_session_widget_label">Següent sessió d\'UABDroid</string>
+	<string name="next_session_widget_text">Següent sessió del curs:</string>
+	<string name="next_session_widget_default_title">Curs finalitzat</string>
+	<string name="next_session_widget_default_content">Fins a la propera edició!</string>
+	<!-- *************************************************** -->
+	
+	<!-- Live Folder -->
+	<string name="live_folder_name">Llista de sessions</string>
+	<!-- *************************************************** -->
+
+    
+	<!-- User Preferences -->
+	<string name="user_preferences_category_alarms">Notificacions</string>
+	<string name="user_preferences_next_session_alerts_title">Alertes de sessió</string>
+	<string name="user_preferences_next_session_alerts_text">Selecciona per a activar les alertes</string>
+	<string name="user_preferences_next_session_alert_frequency_title">Freqüència de les alertes</string>
+	<string name="user_preferences_next_session_alert_frequency_text">Freqüència amb la que es comprova si s\'ha de llençar una alerta per avisar d\'una sessió propera</string>
+	<string name="user_preferences_next_session_alert_frequency_dialog_title">Freqüència de les alertes</string>
+	<string name="user_preferences_next_session_window_interval_title">Interval de la propera alerta</string>
+	<string name="user_preferences_next_session_window_interval_text">Marge de temps abans de la propera sessió, a partir del qual es començarà a emetre recordatoris segons la freqüència triada</string>
+	<string name="user_preferences_next_session_window_interval_dialog_title">Interval de la propera alerta</string>
+	
+	<string name="user_preferences_automatic_updates_title">Actualitzacions de contingut automàtiques</string>
+	<string name="user_preferences_automatic_updates_text">Selecciona per a activar les actualitzacions automàtiques de la informació de l\'aplicatiu</string>
+	<string name="user_preferences_automatic_updates_frequency_title">Freqüència de les actualitzacions</string>
+	<string name="user_preferences_automatic_updates_frequency_text">Freqüència amb la que es comprova si s\'han d\'actualitzar els continguts de l\'aplicatiu</string>
+	<string name="user_preferences_automatic_updates_frequency_dialog_title">Freqüència de les actualitzacions</string>
+	<!-- ************* --> 
+	
+	<!-- Notifications -->
+	<string name="next_session_notification_warning">S\'apropa una sessió del curs</string>
+	<string name="next_session_notification_text">Propera sessió del curs d\'Android en breu</string>
+    <string name="next_session_notification_title">Alerta de proximitat de sessió</string>
+    <!-- ************* --> 
+    
+</resources>

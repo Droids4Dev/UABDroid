@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+		android:title="@string/user_preferences_category_alarms">
+
+		<CheckBoxPreference	android:key="PREF_NEXT_SESSION_ALERTS_CHECK"
+			android:title="@string/user_preferences_next_session_alerts_title"
+			android:summary="@string/user_preferences_next_session_alerts_text"
+			android:defaultValue="false"
+		/>
+		<ListPreference	android:key="PREF_NEXT_SESSION_ALERT_FREQ"
+			android:title="@string/user_preferences_next_session_alert_frequency_title"
+			android:summary="@string/user_preferences_next_session_alert_frequency_text"
+			android:dialogTitle="@string/user_preferences_next_session_alert_frequency_dialog_title"
+			android:entries="@array/user_preferences_alert_frequency_options"
+			android:entryValues="@array/user_preferences_alert_frequency_values"
+			android:defaultValue="24"
+			android:enabled="false"
+		/>
+		<ListPreference	android:key="PREF_NEXT_SESSION_ALERT_INTERVAL"
+			android:title="@string/user_preferences_next_session_window_interval_title"
+			android:summary="@string/user_preferences_next_session_window_interval_text"
+			android:dialogTitle="@string/user_preferences_next_session_window_interval_dialog_title"
+			android:entries="@array/user_preferences_next_session_interval_options"
+			android:entryValues="@array/user_preferences_next_session_interval_values"
+			android:defaultValue="4"
+			android:enabled="false"
+		/>
+		<CheckBoxPreference	android:key="PREF_AUTOMATIC_UPDATES_CHECK"
+			android:title="@string/user_preferences_automatic_updates_title"
+			android:summary="@string/user_preferences_automatic_updates_text"
+			android:defaultValue="false"
+		/>
+		<ListPreference	android:key="PREF_AUTOMATIC_UPDATES_FREQ"
+			android:title="@string/user_preferences_automatic_updates_frequency_title"
+			android:summary="@string/user_preferences_automatic_updates_frequency_text"
+			android:dialogTitle="@string/user_preferences_automatic_updates_frequency_dialog_title"
+			android:entries="@array/user_preferences_automatic_updates_frequency_options"
+			android:entryValues="@array/user_preferences_automatic_updates_frequency_values"
+			android:defaultValue="48"
+			android:enabled="false"
+		/>
+		
+	</PreferenceCategory>
+</PreferenceScreen>
